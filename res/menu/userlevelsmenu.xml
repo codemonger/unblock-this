@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/help" android:title="Help"></item>
+	<item android:id="@+id/editLevel" android:title="Edit"></item>
+	<item android:id="@+id/shareLevel" android:title="Share"></item>
+	<item android:id="@+id/importLevel" android:title="Import"></item>
+</menu>

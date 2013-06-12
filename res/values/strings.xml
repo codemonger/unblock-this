@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Block Composer</string>
+    <string name="help_text">Block Composer is a block pushing puzzle game. You win by removing all of the colored blocks. Combine four or more blocks of the same color and they will disappear. You can climb on blocks if you push against a block that can not be pushed.</string>
+    <string name="import_level_text">To import a level, copy the file to the blockcomposer directory on your SD card. It must end in the extension .bclevel</string>
+
+	<string name="ext_storage_not_available">Could not save level because external storage is not available.</string>
+    
+   	<string name="tutorial1_entry_text">Welcome to Block Composer! Combine 4 or more blocks of the same color to remove them. Remove all colored blocks to win the level. If you make a mistake you can use the back button on your device to undo the previous block push.</string>
+   	<string name="tutorial2_entry_text">You can climb on a block if it is pushed up against something or the edge of the level.</string>
+   	<string name="tutorial3_entry_text">Notice there are 5 purple blocks. They must all be combined at once in order to win.</string>
+   	<string name="tutorial3_exit_text">Awesome. I think you are ready for an actual level now.</string>
+   		
+	<string name="default_exit_text">Congratulations!</string>
+</resources>

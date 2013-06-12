@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonInitX">10px</dimen>
+    <dimen name="buttonInitY">10px</dimen>
+    <dimen name="buttonWidth">64px</dimen>
+    <dimen name="buttonHeight">64px</dimen>
+    <dimen name="buttonPaddingX">8px</dimen>
+    <dimen name="buttonPaddingY">8px</dimen>
+    <dimen name="fontSize">32pt</dimen>
+</resources>

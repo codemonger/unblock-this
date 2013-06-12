@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="bwr.blockcomposer"
+          android:versionCode="9" android:versionName="0.7.2">
+      
+    <application android:name="BlockComposer"
+                 android:icon="@drawable/icon"
+                 android:label="@string/app_name"
+   		         android:theme="@android:style/Theme.NoTitleBar">
+   		
+        <activity android:name="BlockComposerActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter> <!-- Gmail Attachments -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            	<data android:mimeType="application/vnd.bwr.blockcomposer.level" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:host="*" android:mimeType="application/octet-stream" android:pathPattern=".*\\.bclevel" />
+            </intent-filter>
+        </activity>
+    </application>
+    
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> 
+    
+    <uses-sdk android:minSdkVersion="7" />
+
+</manifest>
