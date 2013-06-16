@@ -34,8 +34,10 @@ public class BlockComposer extends Application {
 		new LevelMetadata("Abacus", "ibookyn", R.raw.abacus, 1, NO_ENTRY_TEXT, R.string.default_exit_text, "abacus.state"),
 		new LevelMetadata("Eisenhower", "ibookyn", R.raw.eisenhower, 1, NO_ENTRY_TEXT, R.string.default_exit_text, "eisenhower.state"),
 		new LevelMetadata("Hell's Gate", "ibookyn", R.raw.hellsgate, 1, NO_ENTRY_TEXT, R.string.default_exit_text, "hellsgate.state"),
-		new LevelMetadata("Aitken", "ibookyn", R.raw.aitken, 1, NO_ENTRY_TEXT, R.string.default_exit_text, "aitken.state"),
+		new LevelMetadata("Aitken Basin", "ibookyn", R.raw.aitken, 1, NO_ENTRY_TEXT, R.string.default_exit_text, "aitken.state"),
 		new LevelMetadata("Down the Hatch", "ibookyn", R.raw.hatch, 1, NO_ENTRY_TEXT, R.string.default_exit_text, "hatch.state"),
+		new LevelMetadata("Leviathan", "ibookyn", R.raw.leviathan, 1, NO_ENTRY_TEXT, R.string.default_exit_text, "leviathan.state"),
+		new LevelMetadata("Viper Pit", "ibookyn", R.raw.viperpit, 1, NO_ENTRY_TEXT, R.string.default_exit_text, "viperpit.state"),
 	};
 	
 	
